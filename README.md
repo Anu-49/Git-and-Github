@@ -4,7 +4,7 @@ Learning github
 
 # About Git Github
 
-Local folders/repo - git bash
+## Local folders/repo - git bash
 
 Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.
 It is used for:
@@ -30,7 +30,7 @@ Working with Git
 -Git does not store a separate copy of every file in every commit, but keeps track of changes made in each commit!
 
 
-Remote repositories - gihub
+## Remote repositories - gihub
 
 -Git is not the same as GitHub.
 -GitHub makes tools that use Git.
@@ -38,12 +38,17 @@ Remote repositories - gihub
 
 
 To check version:
->>git --version
+```
+git --version
+```
 
 Configure git:
->>git config --global user.name "<yourusername>"
->>git config --global user.email "<yourmailid@email.com>"
+```
+git config --global user.name "<yourusername>"
+git config --global user.email "<yourmailid@email.com>"
+``` 
 
 Initialized empty Git repository in /Users/user/myproject/.git/
->>git init 
+```
+git init ```
 
