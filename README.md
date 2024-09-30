@@ -6,7 +6,7 @@ Git is a popular version control system. It was created by Linus Torvalds in 200
 It is used for:
   + Tracking code changes
   + Tracking who made changes
-  + Coding collaboration
+  + Coding collaboration</br>
 Also used to:
 + Manage projects with Repositories
 + Clone a project to work on a local copy
