@@ -31,6 +31,7 @@ Git is not the same as GitHub.</br>
 GitHub makes tools that use Git.</br>
 GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.</br>
 
+## Git
 
 To check version:
 ```
@@ -39,8 +40,8 @@ git --version
 
 Configure git:
 ```
-git config --global user.name "<yourusername>"
-git config --global user.email "<yourmailid@email.com>"
+git config --global user.name "yourusername"
+git config --global user.email "yourmailid@email.com"
 ``` 
 Make directory (say directory name : myproject), change directory path, Work inside the newly created directory:
 ```
@@ -64,7 +65,7 @@ Files in your Git repository folder can be in one of 2 states:
 + Tracked - files that Git knows about and are added to the repository
 + Untracked - files that are in your working directory, but not added to the repository</br>
 
- When you first add files to an empty repository, they are all untracked. To get Git to track them, you need to stage them, or add them to the staging environment. One of the core functions of Git is the concepts of the Staging Environment, and the Commit.</br>
+ When you first add files to an empty repository, they are all untracked. To get Git to track them, you need to stage them, or add them to the staging environment. </br>One of the core functions of Git is the concepts of the Staging Environment, and the Commit.</br>
  As you are working, you may be adding, editing and removing files. But whenever you hit a milestone or finish a part of the work, you should add the files to a Staging Environment.
 </br>Staged files are files that are ready to be committed to the repository you are working on. When we are done with a editing a file we need to add it to Staging environment.
 ```
@@ -80,7 +81,7 @@ File should be staged. Check for git status now:
 ```
 git status
 ```
-When ready move from stage to commit for our repo. </br> When we commit, we should always include a message.
+Now ready to move from stage to commit for our repo. </br> When we commit, we should always include a message.
 By adding clear messages to each commit, it is easy to see what has changed and when.
 ```
 git commit -m "Commit my first html file"
