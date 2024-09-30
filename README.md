@@ -7,6 +7,7 @@ It is used for:
   + Tracking code changes
   + Tracking who made changes
   + Coding collaboration</br>
+  </br>
 Also used to:
 + Manage projects with Repositories
 + Clone a project to work on a local copy
