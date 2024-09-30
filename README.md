@@ -1,16 +1,12 @@
-# My_demo
-Learning github 
-<br> learning from shradha - apna college
-
 # About Git Github
 
 ## Local folders/repo - git bash
 
 Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.
 It is used for:
-  +Tracking code changes </br>
-  +Tracking who made changes</br>
-  +Coding collaboration</br>
+  + Tracking code changes
+  + Tracking who made changes
+  + Coding collaboration
 
 +Manage projects with Repositories</br>
 +Clone a project to work on a local copy</br>
