@@ -2,7 +2,7 @@
 
 ## Git Bash - Local folders/repo
 
-Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.
+**Git** is a popular **version control system**. It was created by *Linus Torvalds* in *2005*, and has been maintained by Junio Hamano since then.
 It is used for:
   + Tracking code changes
   + Tracking who made changes
@@ -137,4 +137,5 @@ git branch -d second_branch
 
 
 Go to https://www.github.com/ and sign up for an account or sign in to create new account you your mail ID.
+
 
