@@ -1,6 +1,6 @@
 # About Git Github
 
-## Local folders/repo - git bash
+## Git Bash - Local folders/repo
 
 Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.
 It is used for:
@@ -25,13 +25,13 @@ It is used for:
 + Git does not store a separate copy of every file in every commit, but keeps track of changes made in each commit!
 
 
-## Remote repositories - github
+## Github - Remote repositories
 
 Git is not the same as GitHub.</br>
 GitHub makes tools that use Git.</br>
 GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.</br>
 
-## Git
+## Git - commands
 
 To check version:
 ```
@@ -108,8 +108,31 @@ git help --all
 
 ### Branches
 Branches allow you to work on different parts of a project without impacting the main branch. When the work is complete, a branch can be merged with the main project.
-create a new branch where branch name is 'hello-world-images:
+create a new branch where branch name is 'secondbranch':
 ```
-git branch hello-world-images
+git branch secondbranch
 ```
+To check on which branch we are use 'git branch' command, the '*' before the branch name indicates our current branch. Here we can also see list of all branches we have in our repo.
+```
+git branch
+```
+'checkout' is the command used to check out a branch. Moving us from the current branch, to the one specified at the end of the command i.e,
+```
+git checkout second_branch
+```
+By using above command we will check out from 'main' branch and move to newly created branch 'second_branch'. Just like moving from one workspace to another workspace or from one folder to another folder.
+</br>
+to get back to main branch use:
+```
+git checkout main
+```
+To merge second_branch to main branche:
+```
+git merge second_branch
+```
+To delete a branch, say for example need to delete branch 'second_branch':
+```
+git branch -d second_branch
+```
+
 
