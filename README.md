@@ -106,4 +106,10 @@ See all possible commands
 git help --all
 ```
 
+### Branches
+Branches allow you to work on different parts of a project without impacting the main branch. When the work is complete, a branch can be merged with the main project.
+create a new branch where branch name is 'hello-world-images:
+```
+git branch hello-world-images
+```
 
