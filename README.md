@@ -1,4 +1,4 @@
-# About Git Github
+# About Git & Github
 
 ## Git Bash - Local folders/repo
 
@@ -67,7 +67,7 @@ Files in your Git repository folder can be in one of 2 states:
 
  When you first add files to an empty repository, they are all untracked. To get Git to track them, you need to stage them, or add them to the staging environment. </br>One of the core functions of Git is the concepts of the Staging Environment, and the Commit.</br>
  As you are working, you may be adding, editing and removing files. But whenever you hit a milestone or finish a part of the work, you should add the files to a Staging Environment.
-</br>Staged files are files that are ready to be committed to the repository you are working on. When we are done with a editing a file we need to add it to Staging environment.
+</br>Staged files are files that are ready to be committed to the repository you are working on. When we are done with a editing a file we need to add it to **Staging environment.**
 ```
 git add first.html
 ```
@@ -135,4 +135,6 @@ To delete a branch, say for example need to delete branch 'second_branch':
 git branch -d second_branch
 ```
 
+
+Go to https://www.github.com/ and sign up for an account or sign in to create new account you your mail ID.
 
