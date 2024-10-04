@@ -27,18 +27,18 @@ It is used for:
 
 ## Github - Remote repositories
 
-Git is not the same as GitHub.</br>
+**Git is not the same as GitHub.**</br>
 GitHub makes tools that use Git.</br>
 GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.</br>
 
 ## Git - commands
 
-To check version:
+To check **version**:
 ```
 git --version
 ```
 
-Configure git:
+Configuring git:
 ```
 git config --global user.name "yourusername"
 git config --global user.email "yourmailid@email.com"
@@ -62,8 +62,8 @@ git status
 ```
 Git is aware of the file, but has not added it to our repository!</br>
 Files in your Git repository folder can be in one of 2 states:
-+ Tracked - files that Git knows about and are added to the repository
-+ Untracked - files that are in your working directory, but not added to the repository</br>
++ **Tracked** - files that Git knows about and are added to the repository
++ **Untracked** - files that are in your working directory, but not added to the repository</br>
 
  When you first add files to an empty repository, they are all untracked. To get Git to track them, you need to stage them, or add them to the staging environment. </br>One of the core functions of Git is the concepts of the Staging Environment, and the Commit.</br>
  As you are working, you may be adding, editing and removing files. But whenever you hit a milestone or finish a part of the work, you should add the files to a Staging Environment.
@@ -77,7 +77,7 @@ git add --all
 OR
 git add --A
 ```
-File should be staged. Check for git status now:
+File should be staged. *Check for git status* now:
 ```
 git status
 ```
@@ -108,19 +108,19 @@ git help --all
 
 ### Branches
 Branches allow you to work on different parts of a project without impacting the main branch. When the work is complete, a branch can be merged with the main project.
-create a new branch where branch name is 'secondbranch':
+create a new branch where branch name is *'secondbranch'*:
 ```
 git branch secondbranch
 ```
-To check on which branch we are use 'git branch' command, the '*' before the branch name indicates our current branch. Here we can also see list of all branches we have in our repo.
+To check on which branch we are use *'git branch'* command, the '*' before the branch name indicates our current branch. Here we can also see list of all branches we have in our repo.
 ```
 git branch
 ```
-'checkout' is the command used to check out a branch. Moving us from the current branch, to the one specified at the end of the command i.e,
+'checkout' is the command used to *check out a branch*. Moving us from the current branch, to the one specified at the end of the command i.e,
 ```
 git checkout second_branch
 ```
-By using above command we will check out from 'main' branch and move to newly created branch 'second_branch'. Just like moving from one workspace to another workspace or from one folder to another folder.
+By using above command we will check out from *'main'* branch and move to newly created branch *'second_branch'*. Just like moving from one workspace to another workspace or from one folder to another folder.
 </br>
 to get back to main branch use:
 ```
