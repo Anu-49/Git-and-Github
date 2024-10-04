@@ -135,10 +135,10 @@ To delete a branch, say for example need to delete branch 'second_branch':
 git branch -d second_branch
 ```
 
-
-Go to https://www.github.com/ and sign up for an account or sign in to create new account you your mail ID.</br>
-Create a new repo, You can choose whether your repo can be public or private.</br>
-Click on **Code** option at top right corner of the repo you have created. Copy the URL from the drop down menu when you click on code.
+## Git and Github: 
++ Go to https://www.github.com/ and sign up for an account or sign in to create new account you your mail ID.</br>
++ Create a new repo, You can choose whether your repo can be public or private.</br>
++ Click on **Code** option at top right corner of the repo you have created. Copy the URL from the drop down menu when you click on code.
 
 **git remote add origin URL** specifies that you are adding a remote repository, with the specified URL, as an origin to your local Git repo. Say I'm adding *My_code* **remote repo** to my **local git repo** then:
 ```
