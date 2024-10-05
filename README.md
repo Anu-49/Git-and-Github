@@ -150,6 +150,23 @@ the time you start working on a project, you should get the most recent changes 
 *pull* is a combination of 2 different commands:
 + fetch
 + merge
+**fetch** gets all the change history of a tracked branch/repo.
+```
+git fetch origin
+```
+**merge** combines the current branch, with a specified branch.
+```
+git merge origin/master
+```
+To update your local repository, without going through all those steps use pull.</br>
+*pull* is a combination of fetch and merge. It is used to pull all changes from a remote repository into the branch you are working on.
+```
+git pull origin
+```
+After making changes remotely in Git to reflect the same changes in remote github use *git push*
+```
+git push origin
+```
 
 
 
