@@ -144,5 +144,12 @@ git branch -d second_branch
 ```
 git remote add origin https://github.com/anushacha********.com/My_code.git
 ```
+We can also edit code in github itself. Add some changes to the code, and then commit the changes.</br>
+the time you start working on a project, you should get the most recent changes to your local copy and you can do that with pull.
+</br>
+*pull* is a combination of 2 different commands:
++ fetch
++ merge
+
 
 
