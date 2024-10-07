@@ -167,6 +167,10 @@ After making changes remotely in Git to reflect the same changes in remote githu
 ```
 git push origin
 ```
+You can checkout from main branch to other branch by clicking on branch 'main' symbol on top left corner. Now you can again pull the modified repo to your local repository.
+```
+git pull
+```
 
 
 
